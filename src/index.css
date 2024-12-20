@@ -1,0 +1,98 @@
+/* Ümumi üslublar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Timer komponenti */
+.timer-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 350px;
+  max-width: 100%;
+  
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #666;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(1.05);
+}
+
+/* Button containers */
+button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Timer results */
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.record-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #333;
+}
+
+.record-item span {
+  font-weight: bold;
+}
+
+.record-item span:first-child {
+  color: #4caf50;
+}
+

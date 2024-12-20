@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Taymer/static/css/main.57d78958.css",
+    "main.js": "/Taymer/static/js/main.77a6fe96.js",
+    "index.html": "/Taymer/index.html",
+    "main.57d78958.css.map": "/Taymer/static/css/main.57d78958.css.map",
+    "main.77a6fe96.js.map": "/Taymer/static/js/main.77a6fe96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57d78958.css",
+    "static/js/main.77a6fe96.js"
+  ]
+}
